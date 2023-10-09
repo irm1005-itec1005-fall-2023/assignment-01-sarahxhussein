@@ -53,6 +53,7 @@
           <li><a href="#Products">Products</a></li>
           <li><a href="#Routine">Routine</a></li>
           <li><a href="#Testimonials">Testimonials</a></li>
+          <li><a href="Form">New Client Enrollment Form</a></li>
         </ul>
 
       </section>
@@ -206,6 +207,96 @@
             </tbody>
           </table>
         </section>
+        
+         
+      
+      </section>
+      <section>
+        <h2 id="Form">New Client Enrollment Form</h2>
+        <p><strong>Have any inquiries please reach out and let us know below</strong></p>
+
+
+        <form>
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input 
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="name"
+              required
+            />  
+            <label for="email">Email:</label>
+            <input type="email" id="email" autocomplete="email"/>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" />
+            
+            <label for="Preferred Contact Method">Preferred Contact Method</label>
+            <select id="Preferred Contact Method" name="Preferred Contact Method" required>
+              <option value="">Please choose an option</option>
+              <option value="Email">Email</option>
+              <option value="Phone">Phone</option>
+            </select>
+           
+          </fieldset>
+          <fieldset>
+            <legend>How can we help YOU</legend>
+            
+            <label>Pick the option applicable to YOU:</label>
+            <input
+              type="radio"
+              id="suggestion"
+              name="Pick the option applicable to YOU"
+              value="suggestion"
+              required
+            /> 
+            <label for="suggestion">Suggestion</label> 
+            <input
+              type="radio"
+              id="concern"
+              name="Pick the option applicable to YOU"
+              value="suggestion"
+            />  
+            <label for="concern">Concern</label>
+            <input
+              type="radio"
+              id="concern"
+              name="Pick the option applicable to YOU"
+              value="concern"
+            />
+            <label for="appreciation">Appreciation</label> 
+            
+            <label for="Details">Lets us know:</label><br />
+            <textarea
+              id="Details"
+              name="Details"
+              rows="4"
+              cols="50"
+              required
+            ></textarea>
+
+          </fieldset>
+
+          <fieldset>
+            <legend>Subscribe to our monthly newsletter</legend>
+
+            <input type="checkbox" id="followup" name="followup" value="yes" />
+            <label for="followup"
+              >I would like to subscribe to the monthly newsletter</label>
+            >  
+          </fieldset>
+
+          <fieldset>
+            <legend>We value your input</legend>
+
+            <input type="checkbox" id="consent" name="consent" required />
+            <label for= "consent"> I consent to the use of my input.</label>
+            <input type="submit" value="Submit Feedback" />
+          </fieldset>
+            
+        </form>
       </section>
 
 
