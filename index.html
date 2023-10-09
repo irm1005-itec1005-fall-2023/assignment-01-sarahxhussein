@@ -1,28 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-ca">
   <head>
-    <!-- Set the page title -->
-    <title>Assignment 01 - To Be Completed</title>
-
-    <!-- Set the charset we're using to UTF-8 -->
+    <title>Ta peau</title>
     <meta charset="UTF-8" />
-
-    <!-- Set the screens default zoom / scale to 1 -->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <!-- Specifies the document mode for Internet Explorer -->
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-
-    <!-- CSS -->
-    <!-- The following CSS has been added so that the page
-    doesn't look super awful -->
-    <!-- Ignore everything in the <style> tag for now -->
-    <!-- We will learn about CSS later in the course -->
     <style>
-      /*
-        These styles set the font, font-size, and add a
-        little bit of space between lines
-      */
       body {
         font-family: Arial, Helvetica, sans-serif;
         font-size: 1.2rem;
@@ -40,21 +23,320 @@
     </style>
   </head>
   <body>
-    <!--
+    <header>
+     <h2>TA PAEAU</h2>
+
+     <p>A guide to creating an effective routine for YOUR SKIN</p>
+
+     <img
+        src="images/SkincareLogo.png " width="100" height="500"
+        alt="my logo"
+      />
+
+     <nav>
+      <h3>Site menu</h3>
+      <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog mission</a></li>
+          <li><a href="#">Contact</a></li>
+      </ul>
+     </nav> 
+    </header>
+
+    <main>
+      <h1>Welcome to skincare 101</h1>
+      
+      <section>
+        <h2>A dive into</h2>
+        
+        <ul>
+          <li><a href="#Products">Products</a></li>
+          <li><a href="#Routine">Routine</a></li>
+          <li><a href="#Testimonials">Testimonials</a></li>
+          <li><a href="#Form">New Client Enrollment Form</a></li>
+        </ul>
+
+      </section>
+      
+      <section>
+        <h2 id="Products">Products</h2>
+
+        <p>There are literally thousands of products in the skincare aisle and we know it can be overwhelming.
+          The process of caring for your skin doesnt have to be complicated. Below, we are breaking down the steps and basic products to keep your face healthy and glowing. 
+        </p>
+        
+        <section>
+          <h3>Cleanser</h3>
+          
+          <p>This clears away impurities and excess oil that can clog pores and dull skin. But be gentle: “Many people cleanse too often or use a cleanser thats overly harsh, which will actually break down your skins protective barrier”. 
+            If you have dry or sensitive skin, try washing only at night and rinsing your face with water in the morning.
+          </p>
+          <p>There are different types of cleansers for different skin types:</p>
+
+          <ul>
+            <li>Oily skin: A foaming or gel cleanser will ensure adequate removal of excess dirt and oil from your skin; ingredients like niacinamide and salicylic acid can help regulate and remove excess oil.</li>
+            <li>Acne-prone skin: A gentle foaming cleanser with acne-fighting ingredients like salicylic acid, glycolic acid, benzoyl peroxide or sulfur is your best bet.</li>
+            <li>Dry skin: Look for a lotion, cream or balm formula with hydrating ingredients like ceramides, glycerin, hyaluronic acid and botanical oils.</li>
+            <li>Sensitive skin: Try a micellar water, an ultra-gentle cleanser that includes tiny particles called micelles that trap impurities and lift them away without drying your skin in the process.</li>
+          </ul>
+
+          
+        </section>
+        
+        <section>
+          <h3>Exfoliator</h3>
+          <p>In addition to clearing away dead and dry skin, a regular exfoliation routine can improve your skins clarity, radiance, and youthfulness by unclogging pores and boosting circulation and lymphatic drainage. 
+            Importantly though, the process of removing dead and dry skin allows your other skincare products to penetrate more deeply and effectively. Over time, the habit helps stimulate collagen synthesis, improving your skins texture and lessening the appearance of fine lines and wrinkles. We consider this an essential self-care step that can be done on a weekly or biweekly basis after cleansing and before adding serum, toner, or moisturizer.
+          </p>
+
+        </section>
+
+        <section>
+          <h3>Toner</h3>
+          <p>Toners are skincare liquids that are applied to dry skin after cleansing using fingers, a cotton ball or cloth, and before using other leave-on skincare treatments like serums and moisturizers. A good toner can help ensure your skin is totally clean and grime-free, plus give it an extra dose of active ingredients.</p>
+          <ul>
+            <li>If you have acne-prone skin, look for a toner with hydroxy acids, including salicylic acid and lactic acid, which increase cell turnover.</li>
+            <li>For dry or sensitive skin, seek out a hydrating toner (or its sister, an essence) made without parching alcohol and with ingredients like glycerin and hyaluronic acid to soothe.</li>
+            <li>For combination skin, opt for gentle exfoliants, hydration boosters and antioxidants like vitamin C, vitamin E and green tea, which can combat free radicals and prevent skin damage.</li>
+            <li>For oily skin, look for astringents, such as alcohols or witch hazel, that tighten pores.</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Serum</h3>
+          <p>A serum tailored to your skin concerns can both treat and protect, delivering concentrated amounts of powerful ingredients that can address a number of complexion issues, from wrinkles to dark spots — and if you have multiple concerns, you can use several different serum formulas. Just be sure to read the labels carefully, because some serums are best used in the morning, while others are ideal for nighttime.</p>
+          <ul>
+            <li><strong>Hyaluronic acid serums:</strong> They draw moisture into the skin, combatting dryness and dullness and also plumping skin.</li>
+            <li><strong>Niacinamide:</strong> A form of vitamin B3 that brightens and evens skin tone, boosts collagen production and calms inflammation.</li>
+            <li><strong>Retinoids:</strong> Stimulate cell turnover to increase collagen production and reduce wrinkles and hyperpigmentation. Retinol is best used at night.</li>
+            <li><strong>Peptides:</strong> Made of amino acids, they are the building blocks of collagen and can boost its production to smooth lines and increase skin's firmness.</li>
+
+          </ul>
+        </section>
+
+        <section>
+          <h3>Eye cream</h3>
+          <p>Eye creams are different than face creams because they're formulated specifically for the delicate eye area, which ages faster than the rest of your face — and therefore fall into the "treat" category, too. If you're concerned about fine lines, wrinkles, a lack of firmness, dark circles or undereye bags, an eye treatment product is definitely a good option.</p>
+
+        </section>
+
+        <section>
+          <h3>Moisturizer</h3>
+          <p>Next come face moisturizers, which keep your skin soft and hydrated and help strengthen its barrier. If you have oily or acne-prone skin, opt for a lighter moisturizer during the daytime, such as a lotion or gel that will absorb quickly and won't pill under makeup. 
+            If your skin is dry, try a thicker formula, like a cream. Either way, dermatologists recommend moisturizers for all skin types year round, since hydrating is crucial for keeping skin youthful and healthy. “Look for ingredients like ceramides or hyaluronic acid, since these ingredients are the building blocks of moisture retention in skin”.
+          </p>
+        </section>
+        
+        <section>
+          <h3>Sunscreen</h3>
+          <p>Dermatologists agree that sunscreen is the most important step in any skincare routine for every skin type and age. “If you don't wear sunscreen, you might as well not do any of the other steps”.</p>
+          <p>“The sun is the number one reason skin ages prematurely.” The damage isn't only cosmetic, no matter what your skin color: “People of color can and do get skin cancer”. Additionally, if you're treating hyperpigmentation without daily SPF use, it's like taking two steps forward and one step backward.”</p>
+        </section>
+        
+
+      </section>
+      
+      <section>
+        <h2 id="Routine">Routine</h2>
+
+        <p>Having a consistent and basic routine helps the most in achieving great and long lasting results.
+          These can be divided into your day routine and night routine.
+        </p>
+
+        <img
+          src="images/Routine.png"
+          alt="illustration of skin care routine steps"
+        />  
+
+
+        <section>
+          <h3>Day Routine</h3>
+          <p>Morning skin care routines are all about prevention and protection.
+            Your face is going to be exposed to the outside environment, so necessary steps include moisturizer and sunscreen.
+          </p>
+          <p><strong>These are a step by step breakdown of the products order to use:</strong></p>
+          <ol>
+            <li>Cleanser</li>
+            <li>Toner</li>
+            <li>Serums</li>
+            <li>Eye Cream</li>
+            <li>Moisturizer</li>
+            <li>Sunscreen</li>
+          </ol>
+        </section>
+        <section>
+          <h3>Night routine</h3>
+          <p>Focus on repairing the damage done during the day with thicker products at night. This is also the time to use anything that makes skin sensitive to sunlight, including physical exfoliants and chemical peels.</p>
+          <p><strong>These are a step by step breakdown of the products order to use:</strong></p>
+          <ol>
+            <li>Cleanser</li>
+            <li>Exfoliator</li>
+            <li>Toner</li>
+            <li>Serums</li>
+            <li>Eye Cream</li>
+            <li>Moisturizer</li>
+          </ol>
+        </section>
+
+      </section>
+
+      <section>
+        <h2 id="Testimonials">Testimonials</h2>
+        <p>Here are some wonderful feedback from our lovely clientele</p>
+        <section>
+          <table border="1px">
+            <thead>
+              <tr>
+                <th>Clients</th>
+                <th></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Ella</td>
+                <td>By following a simplified skin care regimen and understanding my skin better by the help of Ta Peau, I was able to clear my skin and understand what it needs.</td>
+              </tr>
+              <tr>
+                <td>Aliyah</td>
+                <td>Acne has been a problem issue for me since I was a teen, I just needed to know what to do effectively and that's exactly what Ta Peau's team helped me achieve. I have a better understand and it's not overwhelming at all.</td>
+              </tr>
+              <tr>
+                <td>Kate</td>
+                <td>I use a basic skin care routine but I needed an elevated product recommendation, I reached out to Ta Peau and we came up with a routine that helped incorporate products that transformed my skin from looking dull to be more brighter and more plump.</td>
+              </tr>
+            </tbody>
+          </table>
+        </section>
+        
+         
+      
+      </section>
+      
+      <section>
+        <h2 id="Form">New Client Enrollment Form</h2>
+        <p><strong>Have any inquiries please reach out and let us know below</strong></p>
+
+
+
+        <form>
+          <fieldset>
+            <legend>Personal Information</legend>
+            <label for="name">Name:</label>
+            <input 
+              type="text"
+              id="name"
+              name="name"
+              autocomplete="name"
+              required
+            />  
+            <label for="email">Email:</label>
+            <input type="email" id="email" autocomplete="email"/>
+            
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" autocomplete="tel" />
+            
+            <label for="Preferred_Contact_Method">Preferred Contact Method:</label>
+            <select id="Preferred_Contact_Method" name="Preferred_Contact_Method" required>
+              <option value="">Please choose an option</option>
+              <option value="Email">Email</option>
+              <option value="Phone">Phone</option>
+            </select>
+           
+          </fieldset>
+          <fieldset>
+            <legend>How can we help YOU</legend>
+            
+            <label>Pick the option applicable to YOU:</label>
+            <input
+              type="radio"
+              id="suggestion"
+              name="Pick the option applicable to YOU"
+              value="suggestion"
+              required
+            /> 
+            <label for="suggestion">Suggestion</label> 
+            <input
+              type="radio"
+              id="concern"
+              name="Pick the option applicable to YOU"
+              value="concern"
+            />  
+            <label for="concern">Concern</label>
+            <input
+              type="radio"
+              id="appreciation"
+              name="Pick the option applicable to YOU"
+              value="appreciation"
+            />
+            <label for="appreciation">Appreciation</label> 
+            
+            
+            <label for="Details">Lets us know:</label><br />
+            <textarea
+              id="Details"
+              name="Details"
+              rows="4"
+              cols="50"
+              required
+            ></textarea>
+
+          </fieldset>
+
+          <fieldset>
+            <legend>Subscribe to our monthly newsletter</legend>
+
+            <input type="checkbox" id="followup" name="followup" value="yes" />
+            <label for="followup"
+              >I would like to subscribe to the monthly newsletter</label
+            >  
+          </fieldset>
+
+          <fieldset>
+            <legend>We value your input</legend>
+
+            <input type="checkbox" id="consent" name="consent" required />
+            <label for= "consent"> I consent to the use of my input.</label>
+            <input type="submit" value="Submit Feedback" />
+          </fieldset>
+            
+        </form>
+      </section>
+
+
+    </main>
+      <!--
 
       LIST ANY CITATIONS HERE
 
-        * A
-        * B
+        * https://kinderbeauty.com/blogs/kinder-articles/skincare-for-beginners
+        *https://www.goodhousekeeping.com/beauty/anti-aging/a22850819/best-skincare-routine/
+        *https://www.theskincenterbycps.com/morning-face-routine-order/
+        *https://nashebeauty.com/blogs/blog/steps-to-note-while-creating-a-morning-and-nighttime-skincare-routine
 
-    -->
+    
 
-    <!--
+      -->
 
-      YOU HAVE TO MODIFY THE HTML TO BUILD YOUR AWESOME PAGE
+    
+    <footer>
+      <h2>Ta Peau</h2>
 
-    -->
+      <img
+        src="images/SkincareLogo.png " width="100" height="500"
+        alt="my logo"
+      />
 
-    <h1>Assignment 01 - To Be Completed</h1>
+      <nav>
+        <h3>Site Menu</h3>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Blog mission</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+
+      <p>&copy; All rights reserved to Ta Peau established 2023</p>
+    </footer>
+
   </body>
 </html>
